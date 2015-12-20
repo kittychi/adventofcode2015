@@ -61,18 +61,4 @@ test = '''.#.#.#
 ####..'''
 
 # day18(test, 10)
-
-
-
-# print('')
-
-# for i in range(1, inlen+1):
-# 	s = ''
-# 	for j in range(1, len(lights)-1):
-# 		if (lights[i][j][1]):
-# 			s+='#'
-# 		else:
-# 			s+='.'
-# # 	print(s)
 day18(inputs.day18,100, b = True)
-# day18(ryanInput.i, 100)
