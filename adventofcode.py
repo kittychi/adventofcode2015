@@ -10,7 +10,6 @@ def day1(strInput):
 			down = down+1
 		else:
 			continue
-
 		if down > up:
 			print (i + 1)
 			break

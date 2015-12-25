@@ -193,3 +193,103 @@ Defense +2   40     0       2
 Defense +3   80     0       3'''
 
 d21boss = [100, 8, 2]
+
+d23 = '''jio a, +18
+inc a
+tpl a
+inc a
+tpl a
+tpl a
+tpl a
+inc a
+tpl a
+inc a
+tpl a
+inc a
+inc a
+tpl a
+tpl a
+tpl a
+inc a
+jmp +22
+tpl a
+inc a
+tpl a
+inc a
+inc a
+tpl a
+inc a
+tpl a
+inc a
+inc a
+tpl a
+tpl a
+inc a
+inc a
+tpl a
+inc a
+inc a
+tpl a
+inc a
+inc a
+tpl a
+jio a, +8
+inc b
+jie a, +4
+tpl a
+inc a
+jmp +2
+hlf a
+jmp -7'''
+
+d23r = '''jio a, +22
+inc a
+tpl a
+tpl a
+tpl a
+inc a
+tpl a
+inc a
+tpl a
+inc a
+inc a
+tpl a
+inc a
+inc a
+tpl a
+inc a
+inc a
+tpl a
+inc a
+inc a
+tpl a
+jmp +19
+tpl a
+tpl a
+tpl a
+tpl a
+inc a
+inc a
+tpl a
+inc a
+tpl a
+inc a
+inc a
+tpl a
+inc a
+inc a
+tpl a
+inc a
+tpl a
+tpl a
+jio a, +8
+inc b
+jie a, +4
+tpl a
+inc a
+jmp +2
+hlf a
+jmp -7'''
+
+d24 = [1, 2, 3, 5, 7, 13, 17, 19, 23, 29, 31, 37, 41, 43, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113]
+d24r = [1, 2, 3, 7, 11, 13, 17, 19, 23, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113]
